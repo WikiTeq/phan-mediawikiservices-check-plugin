@@ -1,0 +1,37 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  style-php:
+    name: Code Style (PHP)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wikiteq/php-lint-action@main
+
+  test:
+    name: PHPUnit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: mbstring, intl
+          coverage: none
+          tools: composer
+
+      - uses: actions/checkout@v4
+
+      - name: Setup Composer
+        run: composer update
+        shell: bash
+
+      - name: Run PHPUnit
+        uses: php-actions/phpunit@v4
+        with:
+          configuration: phpunit.xml

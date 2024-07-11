@@ -1,0 +1,2 @@
+cases/Api/NormalApi.php:9 MediaWikiServicesAccessed API modules should have services injected with dependency injection
+cases/Api/QueryApi.php:9 MediaWikiServicesAccessed API query modules should have services injected with dependency injection

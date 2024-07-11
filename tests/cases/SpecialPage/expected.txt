@@ -1,0 +1,4 @@
+cases/SpecialPage/FormSpecial.php:9 MediaWikiServicesAccessed Special pages should have services injected with dependency injection
+cases/SpecialPage/MySpecial.php:9 MediaWikiServicesAccessed Special pages should have services injected with dependency injection
+cases/SpecialPage/MySpecial.php:15 MediaWikiServicesAccessed Special pages should have services injected with dependency injection
+cases/SpecialPage/MySpecial.php:21 MediaWikiServicesAccessed Special pages should have services injected with dependency injection
