@@ -1,0 +1,2 @@
+cases/ContentHandler/MyHandler.php:12 MediaWikiServicesAccessed Content handlers should have services injected with dependency injection
+cases/ContentHandler/NSMyHandler.php:15 MediaWikiServicesAccessed Content handlers should have services injected with dependency injection

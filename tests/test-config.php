@@ -13,4 +13,7 @@ $cfg['suppress_issue_types'] = [
 	'PhanNonClassMethodCall',
 ];
 
+// For testing aliases
+$cfg['enable_class_alias_support'] = true;
+
 return $cfg;

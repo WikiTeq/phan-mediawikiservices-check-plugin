@@ -1,0 +1,2 @@
+cases/Jobs/MyJob.php:12 MediaWikiServicesAccessed Job classes should have services injected with dependency injection
+cases/Jobs/NSMyJob.php:15 MediaWikiServicesAccessed Job classes should have services injected with dependency injection
