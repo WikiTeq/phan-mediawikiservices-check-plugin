@@ -1,2 +1,4 @@
+cases/Api/NSNormalApi.php:12 MediaWikiServicesAccessed API modules should have services injected with dependency injection
+cases/Api/NSQueryApi.php:12 MediaWikiServicesAccessed API query modules should have services injected with dependency injection
 cases/Api/NormalApi.php:9 MediaWikiServicesAccessed API modules should have services injected with dependency injection
 cases/Api/QueryApi.php:9 MediaWikiServicesAccessed API query modules should have services injected with dependency injection

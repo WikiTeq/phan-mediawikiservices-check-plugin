@@ -1,0 +1,3 @@
+cases/Hooks/JustDIHook.php:9 MediaWikiServicesAccessed Hook handlers should have services injected with dependency injection
+cases/Hooks/MixedHooks.php:10 MediaWikiServicesAccessed Hook handlers should have services injected with dependency injection; the hooks that do not support DI can be split to a separate handler
+cases/Hooks/MixedHooks.php:15 MediaWikiServicesAccessed Hook handlers should have services injected with dependency injection; the hooks that do not support DI can be split to a separate handler

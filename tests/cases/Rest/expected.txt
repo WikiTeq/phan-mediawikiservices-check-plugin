@@ -1,0 +1,1 @@
+cases/Rest/MyHandler.php:9 MediaWikiServicesAccessed REST handlers should have services injected with dependency injection
