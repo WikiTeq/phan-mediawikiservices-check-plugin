@@ -10,7 +10,7 @@
 	"require": {
 		"phan/phan": "^5.4",
 		"php": ">=7.4.0",
-		"symfony/polyfill-php80": "1.32.0"
+		"symfony/polyfill-php80": "^1.16.0"
 	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "43.0.0",
